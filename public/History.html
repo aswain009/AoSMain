@@ -10,7 +10,6 @@
 <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-    .fa-anchor,.fa-coffee {font-size:200px}
     header{
         background-image:url('./images/auraofspringmain.png');
         background-repeat: no-repeat;
@@ -18,6 +17,23 @@
 
     h1{
         text-indent: 1000px;
+    }
+
+    h2{
+        text-transform: uppercase;
+        color: forestgreen;
+    }
+
+    .TextAlignLeft{
+        position: absolute;
+        right: 500px;
+        width: 500px;
+        padding: 10px;
+    }
+
+    .imageAlignLeft{
+        position: absolute;
+        right: 150px;
     }
   </style>
 <body>
@@ -52,11 +68,15 @@
 </header>
 
 <!-- First Grid <img src="./images/auraofspringmain.png" style="width:500px;height:500px;" class="w3-container w3-green w3-center">-->
+
 <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-twothird">
+        <img src="./images/dragonsloot.jpg">
+    </div>
     <div class="w3-content">
-        <div class="w3-twothird">
+        <div class="TextAlignLeft">
             <h2>About Aura Of Spring</h2>
-            <h5 class="w3-padding-32"> This section is going to be a more detailed description of the company and where it started.</h5>
+            <h5> This section is going to be a more detailed description of the company and where it started.</h5>
 
             <p class="w3-text-grey">The idea for Aura of Spring was first started by April Swain, she had the idea to bring the joy of spring scents to everyone all year round.
                 After a few demonstrations and sample offerings, April taught her daughter, Elizabeth, how to brew essences.
@@ -65,21 +85,13 @@
                 and here we are today growing strong, and looking forward to teaching people all about the uses and benefits of essences
             </p>
         </div>
-
-        <div class="w3-third w3-center">
-            <img src="./images/dragonsloot.jpg">
-        </div>
     </div>
 </div>
 
 <!-- Second Grid -->
 <div class="w3-row-padding w3-pale-green w3-padding-64 w3-container">
     <div class="w3-content">
-        <div class="w3-third w3-center">
-
-        </div>
-
-        <div class="w3-twothird">
+         <div class="w3-third">
             <h2 class="w3-center">other information or something</h2>
             <h5 class="w3-padding-32">This section can be for a "Leave Comments" or a sign up for a news letter of something of the like</h5>
         </div>

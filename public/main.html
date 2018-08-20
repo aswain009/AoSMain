@@ -12,7 +12,6 @@
 <style>
     body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-    .fa-coffee {font-size:200px}
     header{
         background-image:url('./images/auraofspringmain.png');
         background-repeat: no-repeat;
@@ -23,11 +22,31 @@
         text-indent: 1000px;
     }
 
-    img{
+    img {
         padding: 20px;
         width: 300px;
         height: 300px;
     }
+
+    h2{
+        text-transform: uppercase;
+        color: forestgreen;
+    }
+
+    .textAlignRight{
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    .imageAlignLeft{
+        position: absolute;
+        left: 0px;
+        width: 300px;
+        padding: 10px;
+    }
+
 </style>
 
 <!-- Navbar -->
@@ -61,12 +80,17 @@
 
 
 <!-- First Grid-->
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container w3-center">
     <h2> WELCOME!</h2>
+    <div class = "textAlignRight">
+     <h4> This section can be used to display a welcome message or a statement about something </h4>
+    </div>
         <img class="mySlides" src="./images/essences.jpg" style="width:50%">
         <img class="mySlides" src="./images/candles.jpg" style="width:50%">
         <img class="mySlides" src="./images/soap.jpg" style="width:50%">
         <img class="mySlides" src="./images/beardOil.jpg" style="width:50%">
+
+
 </div>
 
 
@@ -94,7 +118,9 @@
         <div class="w3-third w3-center">
             <i class="w3-padding-64 w3-text-red w3-margin-right"></i>
         </div>
-
+        <div class="imageAlignLeft">
+            <h4>This section will be where an image is of cooking or something. Or another slide show of a few images that are of the uses described on the right.</h4>
+        </div>
         <div class="w3-twothird">
             <h2>Common Uses</h2>
             <h5 class="w3-padding-32">This is a section that can be used to list uses or other ideas that people have for the products. Or other information that can be displayed about the different products. </h5>
