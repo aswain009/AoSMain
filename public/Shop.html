@@ -98,7 +98,7 @@
             <div class="w3-display-container">
             <img src="./images/candles.jpg" style="width:70%">
             <div class="w3-display-middle w3-display-hover">
-                <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                <buttononCkick onclick="findItem('Candles')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
             </div>
             </div>
             <p>Candles<br><b>$24.99</b></p>
@@ -107,7 +107,7 @@
             <div class="w3-display-container">
                 <img src="./images/essenceBottle.jpg" style="width:70%">
                 <div class="w3-display-middle w3-display-hover">
-                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    <buttononCkick onclick="findItem('EssenceBottleLarge')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
                 </div>
             </div>
             <p>Essence Bottle Large<br><b>$19.99</b></p>
@@ -119,7 +119,7 @@
             <div class="w3-display-container">
                 <img src="./images/beardOil.jpg" style="width:70%">
                 <div class="w3-display-middle w3-display-hover">
-                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    <buttononCkick onclick="findItem('BeardOil')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
                 </div>
             </div>
             <p> Beard Oil<br><b>$19.99</b></p>
@@ -128,7 +128,7 @@
             <div class="w3-display-container">
                 <img src="./images/essenceBottle2.jpg" style="width:70%">
                 <div class="w3-display-middle w3-display-hover">
-                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    <buttononCkick onclick="findItem('EssenceBottleSmall')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
                 </div>
             </div>
             <p>Essence Bottle Small<br><b>$20.70</b></p>
@@ -140,7 +140,7 @@
             <div class="w3-display-container">
                 <img src="./images/scents.jpg" style="width:70%">
                 <div class="w3-display-middle w3-display-hover">
-                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    <buttononCkick onclick="findItem('something')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
                 </div>
             </div>
             <p>something<br><b>$20.70</b></p>
@@ -150,7 +150,7 @@
                 <img src="./images/soap.jpg" style="width:70%">
                 <span class="w3-tag w3-display-topleft">Sale</span>
                     <div class="w3-display-middle w3-display-hover">
-                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                        <buttononCkick onclick="findItem('Soap')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
                 </div>
             </div>
             <p>Soap<br><b class="w3-text-red">$14.99</b></p>
@@ -162,7 +162,7 @@
             <div class="w3-display-container">
                 <img src="./images/sugarScrub.jpg" style="width:70%">
                 <div class="w3-display-middle w3-display-hover">
-                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    <buttononCkick onclick="findItem('SugarScrub')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
                 </div>
             </div>
             <p>Sugar Scrub<br><b>$14.99</b></p>
@@ -171,7 +171,7 @@
             <div class="w3-display-container">
                 <img src="./images/dragonsloot.jpg" style="width:70%">
                 <div class="w3-display-middle w3-display-hover">
-                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    <buttononCkick onclick="findItem('somethingelse')" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></buttononCkick>
                 </div>
             </div>
             <p>something else<br><b>$24.99</b></p>
@@ -210,6 +210,14 @@
             x.className = x.className.replace(" w3-show", "");
         }
     }
+    function findItem(name) {
+       var cartItem = get(name);
+       function LoadJason(url) {
+
+       }
+
+    }
+
 </script>
 </div>
 </body>

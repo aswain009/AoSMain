@@ -1,0 +1,50 @@
+{
+  "itemName": "SugarScrub",
+  "Scents": [
+    {
+      "name": "Cinnamon"
+    },
+    {
+      "name": "Eucalyptus"
+    },
+    {
+      "name": "Daffodil"
+    },
+    {
+      "name": "Lavender"
+    },
+    {
+      "name": "Lemon Balm"
+    },
+    {
+      "name": "?????"
+    },
+    {
+      "name": "Mint"
+    },
+    {
+      "name": "Patchouli"
+    },
+    {
+      "name": "Peppermint"
+    },
+    {
+      "name": "Rose"
+    },
+    {
+      "name": "Rosemary"
+    },
+    {
+      "name": "Spearmint"
+    },
+    {
+      "name": "Vanilla"
+    },
+    {
+      "name": "White Sage"
+    },
+    {
+      "name": "Wild Violet"
+    }
+  ]
+}
