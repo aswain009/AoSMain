@@ -210,13 +210,24 @@
             x.className = x.className.replace(" w3-show", "");
         }
     }
+    //this function will be long and link the corresponding item clicked to the jason file
+    //working on making the functions that will transfer information about the item clicked to integrate into the modal
+    
     function findItem(name) {
-       var cartItem = get(name);
-       function LoadJason(url) {
+       var name = get(name);
+       var Json = require('C:\\Users\\aswain\\git\\Main AoS website\\public\\JsonFiles\\' + name +'.Json'); //(with path)
+       var obj = Json.parse(text);
+       return obj;
+     }
 
-       }
+    function LinkToJason(){
 
     }
+    //and load a window to view the information
+
+    function DetailsWindow()
+    //this function will open a window which will prompt the user for scent selection and quantity
+    //of item. then close the window when the user clicks submit or done
 
 </script>
 </div>
